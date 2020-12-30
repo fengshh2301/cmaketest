@@ -5,6 +5,7 @@ project(hello)
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_CURRENT_SOURCE_DIR}/../add_static/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/../add_dynamic/include
 )
 
 link_directories(
@@ -20,4 +21,5 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/../bin)
 
 target_link_libraries(${PROJECT_NAME}
     add_static
+    add_dynamic
 )
