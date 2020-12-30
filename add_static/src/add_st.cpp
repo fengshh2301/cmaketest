@@ -1,8 +1,8 @@
 #include <iostream>
-#include "adds.h"
+#include "add_st.h"
 
-int adds(int a, int b)
+int add_st_func(int a, int b)
 {
-    std::cout << "this is func adds." << std::endl;
+    std::cout << "this is add_st_func." << std::endl;
 	return a + b;
 }
